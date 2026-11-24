@@ -1,0 +1,23 @@
+{
+  "name": "hyperframes",
+  "version": "1.0.0",
+  "description": "HyperFrames 视频生产技能组：CLI、组件注册表、素材处理、Figma 导入、幻灯片、反向拆解任意视频等 9 个技能。需要 Node 22 + FFmpeg + hyperframes CLI。",
+  "author": {
+    "name": "Al",
+    "email": ""
+  },
+  "homepage": "https://github.com/heygen-com/hyperframes",
+  "repository": "https://github.com/heygen-com/hyperframes",
+  "license": "Apache-2.0",
+  "skills": [
+    "./skills/figma",
+    "./skills/hyperframes",
+    "./skills/hyperframes-cli",
+    "./skills/hyperframes-registry",
+    "./skills/media-use",
+    "./skills/remotion-to-hyperframes",
+    "./skills/reverse-any-video",
+    "./skills/slideshow",
+    "./skills/style-sampling"
+  ]
+}

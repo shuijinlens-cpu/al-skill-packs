@@ -1,0 +1,20 @@
+{
+  "name": "agent-desktop",
+  "version": "1.0.0",
+  "description": "通过无障碍树操作本机应用：跨平台说明（Windows/macOS/Linux）、FFI 绑定与 jev 桌面控制，共 6 个技能。需要 agent-desktop CLI。",
+  "author": {
+    "name": "Al",
+    "email": ""
+  },
+  "homepage": "https://github.com/vercel-labs/agent-desktop",
+  "repository": "https://github.com/vercel-labs/agent-desktop",
+  "license": "Apache-2.0",
+  "skills": [
+    "./skills/agent-desktop",
+    "./skills/agent-desktop-ffi",
+    "./skills/agent-desktop-linux",
+    "./skills/agent-desktop-macos",
+    "./skills/agent-desktop-windows",
+    "./skills/jev-desktop"
+  ]
+}

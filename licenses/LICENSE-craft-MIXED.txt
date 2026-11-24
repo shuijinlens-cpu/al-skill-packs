@@ -1,0 +1,10 @@
+craft 包内含多个上游来源，各自遵循原始许可证：
+
+  computer-use   来自 stablyai/orca                 MIT       -> LICENSE-orca-MIT.txt
+  orca-cli       来自 stablyai/orca                 MIT       -> LICENSE-orca-MIT.txt
+  deep-research  来自 affaan-m/ECC                  MIT       -> LICENSE-ECC-MIT.txt
+  cangjie-skill  来自 kangarooking/cangjie-skill    MIT       -> LICENSE-cangjie-MIT.txt
+  impeccable     来自 pbakaus/impeccable            Apache-2.0-> LICENSE-impeccable-Apache-2.0.txt
+  hallmark       来自 Nutlope/hallmark              MIT       -> LICENSE-hallmark-MIT.txt
+
+完整许可证原文见 F://Alskill//market//licenses// 目录。

@@ -1,0 +1,20 @@
+{
+  "name": "craft",
+  "version": "1.0.0",
+  "description": "Computer Use（Orca）、Deep Research、cangjie-skill（拆书/视频蒸馏）、Impeccable（前端质量）、Hallmark（界面设计）共 6 个技能。",
+  "author": {
+    "name": "Al",
+    "email": ""
+  },
+  "homepage": "orca: stablyai/orca (MIT) · ECC: affaan-m/ECC (MIT) · cangjie: kangarooking/cangjie-skill (MIT) · impeccable: pbakaus/impeccable (Apache-2.0) · hallmark: Nutlope/hallmark (MIT)",
+  "repository": "orca: stablyai/orca (MIT) · ECC: affaan-m/ECC (MIT) · cangjie: kangarooking/cangjie-skill (MIT) · impeccable: pbakaus/impeccable (Apache-2.0) · hallmark: Nutlope/hallmark (MIT)",
+  "license": "MIT / Apache-2.0",
+  "skills": [
+    "./skills/cangjie-skill",
+    "./skills/computer-use",
+    "./skills/deep-research",
+    "./skills/hallmark",
+    "./skills/impeccable",
+    "./skills/orca-cli"
+  ]
+}

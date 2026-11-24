@@ -1,0 +1,27 @@
+{
+  "name": "chatcut",
+  "version": "1.0.0",
+  "description": "ChatCut 桌面端的 AI 剪辑技能组：素材导入、转写、配音、动效、字幕、导出等 13 个技能。需要 ChatCut 桌面版登录并信任 chatcut 连接器。",
+  "author": {
+    "name": "Al",
+    "email": ""
+  },
+  "homepage": "https://github.com/ChatCut-Inc/agent-plugin",
+  "repository": "https://github.com/ChatCut-Inc/agent-plugin",
+  "license": "Apache-2.0",
+  "skills": [
+    "./skills/asset-import",
+    "./skills/export",
+    "./skills/image-gen",
+    "./skills/known-errors",
+    "./skills/motion-graphics",
+    "./skills/music",
+    "./skills/shader-gen",
+    "./skills/talking-head-guide",
+    "./skills/transcription",
+    "./skills/verification",
+    "./skills/video-gen",
+    "./skills/voice",
+    "./skills/widget-forms"
+  ]
+}

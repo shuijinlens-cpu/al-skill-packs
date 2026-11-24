@@ -1,0 +1,104 @@
+{
+  "name": "al-skill-packs",
+  "description": "Al 整理的 Agent 技能包合集：ChatCut 剪辑、HyperFrames 视频、agent-desktop 桌面操作、通用能力（调研/设计/元技能）。",
+  "description_en": "Curated agent skill packs: ChatCut, HyperFrames, agent-desktop, and a craft pack.",
+  "owner": {
+    "name": "shuijinlens-cpu",
+    "email": ""
+  },
+  "metadata": {
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "chatcut",
+      "description": "ChatCut 桌面端的 AI 剪辑技能组：素材导入、转写、配音、动效、字幕、导出等 13 个技能。需要 ChatCut 桌面版登录并信任 chatcut 连接器。",
+      "source": "./plugins/chatcut",
+      "version": "1.0.0",
+      "category": "media",
+      "author": {
+        "name": "Al"
+      },
+      "homepage": "https://github.com/ChatCut-Inc/agent-plugin",
+      "license": "Apache-2.0",
+      "skills": [
+        "./plugins/chatcut/skills/asset-import",
+        "./plugins/chatcut/skills/export",
+        "./plugins/chatcut/skills/image-gen",
+        "./plugins/chatcut/skills/known-errors",
+        "./plugins/chatcut/skills/motion-graphics",
+        "./plugins/chatcut/skills/music",
+        "./plugins/chatcut/skills/shader-gen",
+        "./plugins/chatcut/skills/talking-head-guide",
+        "./plugins/chatcut/skills/transcription",
+        "./plugins/chatcut/skills/verification",
+        "./plugins/chatcut/skills/video-gen",
+        "./plugins/chatcut/skills/voice",
+        "./plugins/chatcut/skills/widget-forms"
+      ]
+    },
+    {
+      "name": "hyperframes",
+      "description": "HyperFrames 视频生产技能组：CLI、组件注册表、素材处理、Figma 导入、幻灯片、反向拆解任意视频等 9 个技能。需要 Node 22 + FFmpeg + hyperframes CLI。",
+      "source": "./plugins/hyperframes",
+      "version": "1.0.0",
+      "category": "media",
+      "author": {
+        "name": "Al"
+      },
+      "homepage": "https://github.com/heygen-com/hyperframes",
+      "license": "Apache-2.0",
+      "skills": [
+        "./plugins/hyperframes/skills/figma",
+        "./plugins/hyperframes/skills/hyperframes",
+        "./plugins/hyperframes/skills/hyperframes-cli",
+        "./plugins/hyperframes/skills/hyperframes-registry",
+        "./plugins/hyperframes/skills/media-use",
+        "./plugins/hyperframes/skills/remotion-to-hyperframes",
+        "./plugins/hyperframes/skills/reverse-any-video",
+        "./plugins/hyperframes/skills/slideshow",
+        "./plugins/hyperframes/skills/style-sampling"
+      ]
+    },
+    {
+      "name": "agent-desktop",
+      "description": "通过无障碍树操作本机应用：跨平台说明（Windows/macOS/Linux）、FFI 绑定与 jev 桌面控制，共 6 个技能。需要 agent-desktop CLI。",
+      "source": "./plugins/agent-desktop",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Al"
+      },
+      "homepage": "https://github.com/vercel-labs/agent-desktop",
+      "license": "Apache-2.0",
+      "skills": [
+        "./plugins/agent-desktop/skills/agent-desktop",
+        "./plugins/agent-desktop/skills/agent-desktop-ffi",
+        "./plugins/agent-desktop/skills/agent-desktop-linux",
+        "./plugins/agent-desktop/skills/agent-desktop-macos",
+        "./plugins/agent-desktop/skills/agent-desktop-windows",
+        "./plugins/agent-desktop/skills/jev-desktop"
+      ]
+    },
+    {
+      "name": "craft",
+      "description": "Computer Use（Orca）、Deep Research、cangjie-skill（拆书/视频蒸馏）、Impeccable（前端质量）、Hallmark（界面设计）共 6 个技能。",
+      "source": "./plugins/craft",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "Al"
+      },
+      "homepage": "orca: stablyai/orca (MIT) · ECC: affaan-m/ECC (MIT) · cangjie: kangarooking/cangjie-skill (MIT) · impeccable: pbakaus/impeccable (Apache-2.0) · hallmark: Nutlope/hallmark (MIT)",
+      "license": "MIT / Apache-2.0",
+      "skills": [
+        "./plugins/craft/skills/cangjie-skill",
+        "./plugins/craft/skills/computer-use",
+        "./plugins/craft/skills/deep-research",
+        "./plugins/craft/skills/hallmark",
+        "./plugins/craft/skills/impeccable",
+        "./plugins/craft/skills/orca-cli"
+      ]
+    }
+  ]
+}
